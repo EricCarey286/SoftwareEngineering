@@ -1,0 +1,100 @@
+html, body, div, h1, h2, h3, nav, menu, section,
+header, footer{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+}
+* {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #F9F1D1;
+}
+
+header{
+  background-color: #206BA4;
+  width: 100%;
+  height: 100px;
+  margin-top: -10px;
+}
+
+p{
+  font-style: normal;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  font-style: bold;
+  font-size: 40px;
+  color: #0F3755;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+header h1{
+  background-color: #206BA4;
+  color: #FFFFFF;
+}
+
+h2{
+  font-style: bold;
+  font-size: 25px;
+  color: #206BA4;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h3{
+  font-style: bold;
+  font-size: 18px;
+  color: #5095C9;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+header h3{
+  background-color: #206BA4;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #206BA4;
+  margin-bottom: -20px;
+}
+
+footer p{
+  background-color: #206BA4;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.members{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.member{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.sections{
+  padding-left: : 20px;
+}
+
+.head_section{
+  padding-left: : 20px;
+}
+
+.sec_head{
+  padding-left: 20px;
+}
+
+.sec_para{
+  padding-left: 30px;
+}
